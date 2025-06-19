@@ -1,0 +1,9 @@
+This project is a Sudoku Solver with a graphical interface built using Python's Tkinter library.
+It allows users to select a puzzle difficulty (Easy, Medium, Hard), loads a random Sudoku puzzle, and visually solves it using a backtracking algorithm.
+The GUI highlights each number being filled step-by-step, providing an animated solving experience. A timer displays the duration it takes to solve the puzzle, giving users insight into the solver's speed.
+The project is self-contained, with no external dependencies beyond Python's standard libraries. It demonstrates fundamental algorithmic techniques (backtracking) and GUI programming skills.
+--Ideal for learning:
+--Recursive algorithms
+--Sudoku solving logic
+--GUI development in Python
+Fun to use and easy to run on any system with Python 3.x installed!.
