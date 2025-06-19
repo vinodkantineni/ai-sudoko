@@ -1,20 +1,18 @@
-# Sudoku Solver with Visualization
+Sudoku Solver GUI 🧠
 
-This project is a Python-based interactive Sudoku Solver that allows users to input puzzles and visualize the solving process step by step using `matplotlib`.
+An interactive Sudoku Solver built with Python and Tkinter.  
+Select difficulty level, view random puzzles, and watch the solver animate its progress while showing the time taken to solve.
 
-## 🧠 Features
-- Interactive Sudoku puzzle input (row-by-row).
-- Visual step-by-step solving using backtracking.
-- Real-time updates displayed via Matplotlib.
-- Clean class-based implementation.
+Features
 
-## 📦 Requirements
+- Load random Sudoku puzzles (Easy, Medium, Hard)
+- Visual step-by-step solving with GUI animation
+- Timer showing solution duration
+- Simple and colorful interface using Tkinter
+
+Tech Stack
 
 - Python 3.x
-- `matplotlib`
-- `numpy`
-- `IPython` (for `display` utilities in Jupyter)
-
-You can install dependencies using:
-```bash
-pip install matplotlib numpy ipython
+- Tkinter (GUI Framework)
+- time (for animation delay & timer)
+- random (for random puzzle selection)
